@@ -15,9 +15,9 @@ const Work = () => {
               My latest <br /> work.
             </h2>
             <p className="max-w-sm mb-16">
-              t is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-lP
+              
+              I have completed several projects, both for myself and for clients. Most of the projects have their repositories in my github account, and I have deployed  most of them ready for use to my clients.
+              
             </p>
             <button className="btn btn-sm">View all projects</button>
           </div>

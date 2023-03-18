@@ -17,7 +17,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+            className="flex-1 bg-about bg-contain bg-no-repeat h-[740px] mix-blend-lighten bg-top"
           ></motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
@@ -28,12 +28,12 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About Me</h2>
             <h3 className="h3 mb-4">
-              I'm a freelancer full-stack developer with 2 years of experience
+              I'm a freelance full-stack developer with 2 years of experience
             </h3>
             <p className="mb-6">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard M
+            As a full stack developer, I possess a diverse skillset encompassing both front-end and back-end web development. I am proficient in HTML, CSS,react and JavaScript for front-end development, and I have experience with various back-end languages such as nodejs, Python and django. My knowledge extends to databases, web servers, and deployment strategies. With my expertise, I am able to create, maintain, and optimize web applications, ensuring they are user-friendly, responsive, and secure. My ability to tackle projects from start to finish makes me a valuable asset to any development team.
+             
+             
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
@@ -67,7 +67,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg" >Contact me </button>
               <a href="#" className=" text-gradient btn-link">
                 My Portfolio
               </a>

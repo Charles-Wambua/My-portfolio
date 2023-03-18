@@ -7,25 +7,25 @@ const services = [
   {
     name: "UI/UX design",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknow",
+      "Proficient in designing user interfaces, wireframes, and prototypes using Sketch, Adobe XD, Figma, and other design tools",
     link: "learn more",
   },
   {
     name: "Software Development",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+      "Excellent understanding of software engineering principles, including object-oriented design, algorithms, and data structures",
     link: "learn more",
   },
   {
     name: "Digital marketing",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ",
+      "Proficient in digital marketing channels such as social media, search engine optimization (SEO), pay-per-click (PPC), and email marketing ",
     link: "learn more",
   },
   {
     name: "Product branding",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been ",
+      "Proficient in brand strategy development, brand identity design, and brand messaging, strong knowledge of consumer behavior and market research ",
     link: "learn more",
   },
 ];
@@ -44,7 +44,7 @@ const Services = () => {
             <h2 className="h2 text-accent mb-6">What I do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
               {" "}
-              I'm a freelancer full-stack developer with 2 years of experience
+              I'm a freelance full-stack developer with 2 years of experience
             </h3>
             <button className="btn btn-sm">See My Work</button>
           </motion.div>
